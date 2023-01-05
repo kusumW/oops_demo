@@ -3,6 +3,7 @@
 
 public class array{
 
+    //test
     public static void main(String[] args){
 
         int[] a = {0, 1, 2,4};
