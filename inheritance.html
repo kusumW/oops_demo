@@ -1,0 +1,35 @@
+<script>
+class Square
+{
+	constructor(l)
+	{
+		this.l=l;
+	}
+	area()
+	{
+		console.log("Area is:"+(this.l*this.l));
+	}
+	area2()
+	{
+		console.log("Area is:"+(this.l*this.l*this.l));
+	}
+}
+class Rectangle extends Square
+{
+	constructor(l,b)
+	{
+		super(l);
+		this.b=b;
+	}
+	area()
+	{
+		console.log("Area is:"+(this.l*this.b));
+	}
+}
+let s=new Square(2);
+let a=new Rectangle(2,3);
+s.area();
+s.area2();
+a.area();
+
+</script>

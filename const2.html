@@ -1,0 +1,37 @@
+<script>
+    const x = 16;  
+     {  
+         const x = 23;  
+         document.write("Block2: x = " + x);                   //23  
+         {  
+               const x = 74;  
+               document.write( "<br> Block3: x = " + x);       //74  
+         }  
+         {  
+               const x = 49;  
+               document.write("<br> Block4: x = " + x);        //49  
+         }  
+     }  
+     document.write("<br> Block1: x = " + x);                  //16  
+</script>
+<script>   
+    //declare and initialize an array of const  
+    const employee = {   
+        fname: "Annie",   
+        lname: "Roy",   
+        age: 22,   
+        profession: "Web Developer"  
+    };   
+        
+    document.write(employee);   
+        
+    // This can be done with const array  
+    employee.fname = "Emmy";   
+    employee.lname = "Jackson";   
+    employee.Age = 24;   
+    employee.profession = "QA Analyst";   
+        
+    document.write(employee);   
+      
+     
+</script>
